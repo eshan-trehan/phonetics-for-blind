@@ -1,11 +1,13 @@
-import os, shutil
-from pynput import keyboard
+import os
+import shutil
+import string
 from multiprocessing import Process
 from threading import Thread
-import string
-from playsound import playsound
+
 import sounddevice as sd
 import wavio as wv
+from playsound import playsound
+from pynput import keyboard
 
 alphabets = list(string.ascii_lowercase)
 vowels = ['a', 'e', 'i', 'o', 'u']
